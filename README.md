@@ -1,12 +1,12 @@
 # K–12 Device & Workflow Manager  
-### Custom Odoo ERP Implementation for School Device Tracking
+### Custom Odoo ERP Implementation for School Device Tracking  
 
 This project is a fully-custom Odoo app designed to manage K–12 device inventory, automate IT workflows, and generate AI-powered device health summaries.  
 Everything was built using **Odoo Studio**, **Odoo Automations**, and the **Odoo AI Field framework** — no custom Python modules required.
 
 ---
 
-## 🚀 Features
+## 🚀 Features  
 
 ### ✔️ Custom ERP Device Model  
 Includes fields for:
@@ -18,88 +18,83 @@ Includes fields for:
 - School  
 - Assigned User  
 - Last Check-In  
-- AI Device Summary (auto-generated)
+- **AI Device Summary (auto-generated)**  
 
-**Model Setup Screenshot:**  
-![Model Screenshot](1.png)
+#### Model Setup Screenshot  
+![Model Screenshot](./1.png)
 
 ---
 
-## ⚙️ Workflow Automations
+## ⚙️ Workflow Automations  
 
-### ✔️ AI-generated “Device Summary”
+### ✔️ AI-Generated “Device Summary”  
 Whenever a device is created or updated, Odoo automatically:
 
 1. Reads all device fields  
-2. Sends the data to the **AI Text** field  
-3. Writes a clean, IT-friendly summary  
+2. Sends the data to the AI Text field  
+3. Writes a clean, professional summary  
 
-**Automation Rule Screenshot:**  
-![Automation Screenshot](4.png)
+#### Automation Rule Screenshot  
+![Automation Screenshot](./2.png)
 
 ---
 
 ## 🧠 AI Summary Prompt  
-
 The built-in AI field uses the following custom prompt:
 
-> *“Generate a short summary of this device using the fields in the record.  
-> Include the device name, type, serial number, assigned user, school, status,  
-> and last check-in date. Write it in a clean, professional tone for K–12 IT management.”*
+> **"Generate a short summary of this device using the fields in the record. Include the device name, type, serial number, assigned user, school, status, and last check-in date. Write it in a clean, professional tone for K–12 IT management."**
 
-**AI Field Configuration Screenshot:**  
-![AI Field Screenshot](5.png)
+#### AI Field Configuration Screenshot  
+![AI Field Screenshot](./3.png)
 
 ---
 
 ## 🧱 Data Model & Form Design  
-Designed in Odoo Studio with clean form layout and user-friendly grouping.
+Designed in Odoo Studio with clean layout and user-friendly structure.
 
-**Studio Form Editor Screenshot:**  
-![Form Editor Screenshot](3.png)
+#### Studio Form Editor Screenshot  
+![Form Editor](./4.png)
 
-**Completed Device Form Screenshot:**  
-![Device Form Screenshot](2.png)
+#### Completed Device Form Screenshot  
+![Device Form](./5.png)
 
 ---
 
 ## 📊 Interactive Analytics Dashboards  
-
 Includes:
 
-- **Device Type Breakdown** (Chromebook, Laptop, iPad)  
-- **Device Status Distribution**  
-- **School-Level Device Counts**  
+- Device Type Breakdown  
+- Status Distribution  
+- School-Level Device Counts  
 
-**Analytics Graph Screenshot:**  
-![Graph Screenshot](6.png)
+#### Analytics Graph Screenshot  
+![Analytics Graph](./6.png)
 
 ---
 
-## 🛠️ Technical Architecture
+## 🛠️ Technical Architecture  
 
-### 🔧 Technology Stack  
-| Component | Description |
-|----------|-------------|
-| **Odoo Studio** | Custom models, views, menus |
-| **Odoo Automations** | On-create & on-write triggers |
-| **Odoo AI Field** | Auto-generated device summaries |
-| **Graph Dashboard** | Device insights & categories |
-| **Odoo ORM (Studio)** | No Python required |
+| Component         | Description                              |
+|------------------|------------------------------------------|
+| Odoo Studio      | Custom models, views, menus              |
+| Odoo Automations | On-create & on-write triggers            |
+| Odoo AI Field    | Auto-generated device summaries          |
+| Graph Dashboard  | Device insights & categories             |
+| Odoo ORM (Studio)| No Python required                       |
 
 ---
 
 ## 🧾 Project Highlights (Resume Ready)
 
-- Customized **Odoo ERP framework** for K–12 device inventory & asset tracking  
-- Built relational **data models, forms, views, and menus**  
-- Implemented complete **end-to-end workflows** using Odoo automations  
-- Integrated **AI-powered summaries** for device health reporting  
-- Developed interactive **analytics dashboards**  
-- Delivered **implementation documentation** and a clean, user-ready interface  
+- Customized Odoo ERP framework for K–12 device inventory & asset tracking  
+- Built relational data models, forms, views, and menus  
+- Implemented complete end-to-end workflows using Odoo automations  
+- Integrated AI-powered summaries for device health reporting  
+- Developed interactive analytics dashboards  
+- Delivered implementation documentation and a clean, user-ready interface  
 
 ---
 
 ## 🙌 Author  
 **Allante Johnson**  
-Technical Implementation • IT Asset Management • Odoo Implementations • K–12 Technology
+Technical Implementation • IT Asset Management • Odoo Implementations • K–12 Technology  
