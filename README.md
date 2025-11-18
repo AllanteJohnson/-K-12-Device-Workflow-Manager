@@ -21,7 +21,7 @@ Includes fields for:
 - **AI Device Summary (auto-generated)**  
 
 #### Model Setup Screenshot  
-![Model Screenshot](./1.png)
+![Model Screenshot](https://raw.githubusercontent.com/AllanteJohnson/-K-12-Device-Workflow-Manager/main/1.png)
 
 ---
 
