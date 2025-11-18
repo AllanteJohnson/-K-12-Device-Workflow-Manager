@@ -32,7 +32,7 @@ Whenever a device is created or updated, Odoo automatically:
 3. Writes a clean, professional summary  
 
 #### Automation Rule Screenshot  
-![Automation Screenshot](/4.png)
+![Automation Screenshot](/5.png)
 
 ---
 
@@ -42,7 +42,7 @@ The built-in AI field uses the following custom prompt:
 > **"Generate a short summary of this device using the fields in the record. Include the device name, type, serial number, assigned user, school, status, and last check-in date. Write it in a clean, professional tone for K–12 IT management."**
 
 #### AI Field Configuration Screenshot  
-![AI Field Screenshot](./5.png)
+![AI Field Screenshot](./4.png)
 
 ---
 
